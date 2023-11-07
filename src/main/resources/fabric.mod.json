@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "sakischromablocks",
+	"version": "${version}",
+	"name": "Saki's Chromablocks",
+	"description": "Minecraft mod giving you blocks to easily chromakey your shots, usable both as a server-client mod and a client-only mod.",
+	"authors": [
+		"Ambre Bertucci",
+		"The Saki Project"
+	],
+	"contact": {
+		"homepage": "https://chromablocks.sakiproject.org",
+		"sources": "https://github.com/SakiProject/chromablocks"
+	},
+	"license": "MIT",
+	"icon": "assets/sakischromablocks/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"org.sakiproject.SakisChromablocks"
+		]
+	},
+	"mixins": [
+		"sakischromablocks.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
